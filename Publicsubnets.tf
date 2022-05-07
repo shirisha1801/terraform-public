@@ -5,6 +5,7 @@ resource "aws_subnet" "subnet1-public" {
 
   tags = {
     Name = "${var.public_subnet1_name}"
+    star1 = var.megastar
   }
 }
 
@@ -15,6 +16,7 @@ resource "aws_subnet" "subnet2-public" {
 
   tags = {
     Name = "${var.public_subnet2_name}"
+    star1 = var.megastar
   }
 }
 
